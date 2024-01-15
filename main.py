@@ -25,15 +25,7 @@ bcrypt = Bcrypt()
 
 
 
-os.environ['APISECRET']= "pollvaultsecret"
-os.environ['hostsecret']= "pollvaultdata.cemu5obj3tam.us-east-1.rds.amazonaws.com"
-os.environ['portsecret']= "5432"
-os.environ['usersecret']= "postgres"
-os.environ['passwordsecret'] ="Pollvault10$$"
-os.environ['databasesecret']= "pollvaultdata"
-os.environ['mailsecret']= "vikrantbewakoof@gmail.com"
-os.environ['mailpasswordsecret']= "sxfy ulkp dudy xpfx"
-os.environ['OPENAI_API_KEY']="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"
+
 
 
 openai.api_key = os.environ["OPENAI_API_KEY"]
