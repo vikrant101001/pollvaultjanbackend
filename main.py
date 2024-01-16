@@ -25,7 +25,7 @@ bcrypt = Bcrypt()
 
 
 
-
+#second day
 
 
 openai.api_key = os.environ["OPENAI_API_KEY"]
